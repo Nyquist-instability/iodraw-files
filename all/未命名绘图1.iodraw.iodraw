@@ -101,7 +101,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s2Rv7AMqnEglrusLrke3-30" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;3*3最大池化层&lt;/font&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;（stryde=2）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="650" width="300" height="50" as="geometry" />
+          <mxGeometry x="200" y="650" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j_qQNlIOTbwC3HE1oBwR-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="s2Rv7AMqnEglrusLrke3-32" target="s2Rv7AMqnEglrusLrke3-33">
           <mxGeometry relative="1" as="geometry" />
@@ -142,7 +142,7 @@
         <mxCell id="j_qQNlIOTbwC3HE1oBwR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j_qQNlIOTbwC3HE1oBwR-1" target="j_qQNlIOTbwC3HE1oBwR-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j_qQNlIOTbwC3HE1oBwR-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;全连接层（512-&amp;gt;256）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j_qQNlIOTbwC3HE1oBwR-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;全连接层（2048-&amp;gt;512）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="223.75" y="1280" width="252.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j_qQNlIOTbwC3HE1oBwR-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;ReLU激活&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
