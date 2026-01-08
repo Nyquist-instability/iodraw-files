@@ -97,6 +97,12 @@
         <mxCell id="s2Rv7AMqnEglrusLrke3-32" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;残差块组1（2个残差块，64通道）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="182.5" y="740" width="375" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="s2Rv7AMqnEglrusLrke3-33" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;残差块组1（2个残差块，64通道）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="830" width="375" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s2Rv7AMqnEglrusLrke3-34" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;残差块组1（2个残差块，64通道）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="760" width="375" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
