@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="LDpfv2V3wUDmgbGintoX">
-    <mxGraphModel dx="2266" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4532" dy="2270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="472" y="352" width="253" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-8" value="空间配准：坐标转换（传感器→无人机机体→世界坐标系），消除安装位置偏差" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="471" y="486" width="254" height="84" as="geometry" />
+          <mxGeometry x="740" y="501" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-9" value="数据清洗：高斯滤波去噪+异常值剔除，过滤茶田环境噪声（枝叶晃动/温湿度干扰）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="472" y="621" width="253" height="102" as="geometry" />
@@ -223,8 +223,7 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=1;entryY=0.7;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-22" target="9GJ3p4viFf3LT7ETrT2P-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1209" y="1786" />
-              <mxPoint x="2010" y="1170" />
+              <mxPoint x="2260" y="1620" />
               <mxPoint x="2030" y="1070" />
               <mxPoint x="1860" y="800" />
               <mxPoint x="1209" y="327" />
