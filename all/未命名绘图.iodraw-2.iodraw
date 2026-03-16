@@ -29,7 +29,7 @@
           <mxGeometry x="471" y="486" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-9" value="数据清洗：高斯滤波去噪+异常值剔除，过滤茶田环境噪声（枝叶晃动/温湿度干扰）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="860" y="510" width="253" height="102" as="geometry" />
+          <mxGeometry x="820" y="477" width="253" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-10" value="特征提取：分别提取各传感器有效特征（红外：热斑轮廓；视觉：HOG人体特征；雷达：距离-速度特征）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1160" y="510" width="254" height="102" as="geometry" />
@@ -138,11 +138,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-8" target="9GJ3p4viFf3LT7ETrT2P-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-9" target="9GJ3p4viFf3LT7ETrT2P-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
@@ -223,8 +218,9 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=1;entryY=0.7;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-22" target="9GJ3p4viFf3LT7ETrT2P-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2120" y="930" />
-              <mxPoint x="2100" y="530" />
+              <mxPoint x="2529" y="400" />
+              <mxPoint x="2390" y="300" />
+              <mxPoint x="2270" y="250" />
               <mxPoint x="2000" y="470" />
               <mxPoint x="1209" y="327" />
             </Array>
