@@ -68,13 +68,13 @@
           <mxGeometry x="1430" y="677.5" width="141" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-16" value="目标信息输出：人体位置/运动轨迹/置信度评分（≥90%为有效目标）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="790" width="255" height="84" as="geometry" />
+          <mxGeometry x="1654" y="476" width="255" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-17" value="茶田安防应用1：触发声光警报模块，现场实时警示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="924" y="978" width="245" height="67" as="geometry" />
+          <mxGeometry x="1170" y="338.5" width="245" height="67" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-18" value="茶田安防应用2：将目标数据传输至御茗云平台，实现可视化追踪" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1219" y="970" width="254" height="84" as="geometry" />
+          <mxGeometry x="1430" y="330" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-19" value="茶田安防应用3：为空地协同追踪提供精准目标坐标，联动无人机跟飞" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1700" y="330" width="252" height="84" as="geometry" />
