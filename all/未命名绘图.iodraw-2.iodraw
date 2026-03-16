@@ -126,7 +126,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-22" value="基于茶田场景数据（遮挡/低光/雾霾）更新EKF滤波参数+特征加权系数" style="whiteSpace=wrap;strokeWidth=2;strokeColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="2230" y="660" width="257" height="84" as="geometry" />
+          <mxGeometry x="2200" y="660" width="257" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.68;entryX=0.5;entryY=0;rounded=0;strokeColor=#FFFFFF;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-1" target="9GJ3p4viFf3LT7ETrT2P-2">
           <mxGeometry relative="1" as="geometry">
