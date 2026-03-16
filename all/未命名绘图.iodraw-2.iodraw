@@ -64,11 +64,14 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-14" value="目标检测：融合特征输入轻量化检测网络，实现茶田场景人体目标精准识别与框选" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1114" y="660" width="254" height="84" as="geometry" />
         </mxCell>
+        <mxCell id="9GJ3p4viFf3LT7ETrT2P-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-15" target="9GJ3p4viFf3LT7ETrT2P-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-15" value="决策输出层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1430" y="677.5" width="141" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-16" value="目标信息输出：人体位置/运动轨迹/置信度评分（≥90%为有效目标）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="797" y="950" width="255" height="84" as="geometry" />
+          <mxGeometry x="1280" y="830" width="255" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-17" value="茶田安防应用1：触发声光警报模块，现场实时警示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="501" y="1093" width="245" height="67" as="geometry" />
@@ -80,10 +83,10 @@
           <mxGeometry x="1100" y="1085" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-20" value="闭环反馈优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="968" width="157" height="49" as="geometry" />
+          <mxGeometry x="1690" y="753" width="157" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-21" value="实时采集融合结果误差（识别精度/漏检率/误检率）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1402" y="1093" width="252" height="67" as="geometry" />
+          <mxGeometry x="1750" y="870" width="252" height="67" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-22" value="基于茶田场景数据（遮挡/低光/雾霾）更新EKF滤波参数+特征加权系数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2400" y="710" width="257" height="84" as="geometry" />
@@ -163,13 +166,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-15" target="9GJ3p4viFf3LT7ETrT2P-16">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="924" y="925" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.84;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-16" target="9GJ3p4viFf3LT7ETrT2P-17">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -188,13 +184,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1226" y="1060" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-15" target="9GJ3p4viFf3LT7ETrT2P-20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1528" y="925" />
             </Array>
           </mxGeometry>
         </mxCell>
