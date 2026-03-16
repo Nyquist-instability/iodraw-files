@@ -197,22 +197,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-66" value="flowchart LR" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="490" width="430" height="156" as="geometry" />
+          <mxGeometry x="1060" y="800" width="620" height="156" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-67" value="    A[多传感器采集&lt;br/&gt;(视觉+雷达+红外)] --&gt; B[时空配准&lt;br/&gt;(统一时序/坐标)]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9GJ3p4viFf3LT7ETrT2P-66">
-          <mxGeometry y="26" width="430" height="26" as="geometry" />
+          <mxGeometry y="26" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-68" value="    B --&gt; C[EKF数据融合&lt;br/&gt;(补偿传感器噪声)]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9GJ3p4viFf3LT7ETrT2P-66">
-          <mxGeometry y="52" width="430" height="26" as="geometry" />
+          <mxGeometry y="52" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-69" value="    C --&gt; D[特征级融合&lt;br/&gt;(视觉轮廓+雷达距离)]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9GJ3p4viFf3LT7ETrT2P-66">
-          <mxGeometry y="78" width="430" height="26" as="geometry" />
+          <mxGeometry y="78" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-70" value="    D --&gt; E[人体目标识别&lt;br/&gt;(精准框选/置信度评估)]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9GJ3p4viFf3LT7ETrT2P-66">
-          <mxGeometry y="104" width="430" height="26" as="geometry" />
+          <mxGeometry y="104" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-71" value="    E --&gt; F[安防应用输出&lt;br/&gt;(预警/追踪)]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9GJ3p4viFf3LT7ETrT2P-66">
-          <mxGeometry y="130" width="430" height="26" as="geometry" />
+          <mxGeometry y="130" width="620" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
