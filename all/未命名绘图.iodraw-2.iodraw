@@ -74,13 +74,13 @@
           <mxGeometry x="1360" y="780" width="255" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-17" value="茶田安防应用1：触发声光警报模块，现场实时警示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="501" y="1093" width="245" height="67" as="geometry" />
+          <mxGeometry x="924" y="978" width="245" height="67" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-18" value="茶田安防应用2：将目标数据传输至御茗云平台，实现可视化追踪" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="796" y="1085" width="254" height="84" as="geometry" />
+          <mxGeometry x="1219" y="970" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-19" value="茶田安防应用3：为空地协同追踪提供精准目标坐标，联动无人机跟飞" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="1085" width="252" height="84" as="geometry" />
+          <mxGeometry x="1523" y="970" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-20" value="闭环反馈优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1690" y="753" width="157" height="49" as="geometry" />
@@ -163,27 +163,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1290" y="610" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.84;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-16" target="9GJ3p4viFf3LT7ETrT2P-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="624" y="1060" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-16" target="9GJ3p4viFf3LT7ETrT2P-18">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="923" y="1060" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.84;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-16" target="9GJ3p4viFf3LT7ETrT2P-19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1226" y="1060" />
             </Array>
           </mxGeometry>
         </mxCell>
