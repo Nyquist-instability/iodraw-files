@@ -11,7 +11,7 @@
           <mxGeometry x="172" y="119" width="252" height="67" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-3" value="双目深度相机D435i：视觉轮廓+三维深度数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="475" y="119" width="262" height="67" as="geometry" />
+          <mxGeometry x="475" y="119" width="262" height="31" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-4" value="毫米波雷达：目标距离+运动速度数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="786" y="119" width="245" height="67" as="geometry" />
