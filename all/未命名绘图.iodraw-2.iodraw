@@ -32,13 +32,13 @@
           <mxGeometry x="860" y="510" width="253" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-10" value="特征提取：分别提取各传感器有效特征（红外：热斑轮廓；视觉：HOG人体特征；雷达：距离-速度特征）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="471" y="772" width="254" height="102" as="geometry" />
+          <mxGeometry x="1160" y="510" width="254" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-11" value="异构数据融合层【核心】" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="480" y="924" width="236" height="49" as="geometry" />
+          <mxGeometry x="470" y="700" width="236" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-12" value="数据级融合：基于扩展卡尔曼滤波（EKF），实现原始数据精准融合，初步定位目标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1023" width="255" height="84" as="geometry" />
+          <mxGeometry x="806" y="700" width="255" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-13" value="特征级融合：加权融合各传感器特征向量，构建人体目标多维度特征库（热+视觉+距离）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="471" y="1157" width="254" height="102" as="geometry" />
