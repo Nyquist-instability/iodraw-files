@@ -37,14 +37,11 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-9" value="数据清洗：高斯滤波去噪+异常值剔除，过滤茶田环境噪声（枝叶晃动/温湿度干扰）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="820" y="477" width="253" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-10" target="9GJ3p4viFf3LT7ETrT2P-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-10" value="特征提取：分别提取各传感器有效特征（红外：热斑轮廓；视觉：HOG人体特征；雷达：距离-速度特征）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1120" y="477" width="254" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-11" value="异构数据融合层【核心】" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="500" width="236" height="49" as="geometry" />
+          <mxGeometry x="1410" y="560" width="236" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-12" target="9GJ3p4viFf3LT7ETrT2P-13">
           <mxGeometry relative="1" as="geometry" />
