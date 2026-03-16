@@ -47,10 +47,10 @@
           <mxGeometry x="1410" y="500" width="236" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-12" value="数据级融合：基于扩展卡尔曼滤波（EKF），实现原始数据精准融合，初步定位目标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="472" y="680" width="255" height="84" as="geometry" />
+          <mxGeometry x="470" y="660" width="255" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-13" value="特征级融合：加权融合各传感器特征向量，构建人体目标多维度特征库（热+视觉+距离）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="790" y="671" width="254" height="102" as="geometry" />
+          <mxGeometry x="819.5" y="680" width="254" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-14" value="目标检测：融合特征输入轻量化检测网络，实现茶田场景人体目标精准识别与框选" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1050" y="689" width="254" height="84" as="geometry" />
@@ -152,11 +152,6 @@
             <Array as="points">
               <mxPoint x="1290" y="610" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-13" target="9GJ3p4viFf3LT7ETrT2P-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-14" target="9GJ3p4viFf3LT7ETrT2P-15">
