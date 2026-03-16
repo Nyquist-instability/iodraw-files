@@ -83,7 +83,7 @@
           <mxGeometry x="1523" y="970" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-20" value="闭环反馈优化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="753" width="157" height="49" as="geometry" />
+          <mxGeometry x="1680" y="726.5" width="157" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-21" value="实时采集融合结果误差（识别精度/漏检率/误检率）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1750" y="870" width="252" height="67" as="geometry" />
