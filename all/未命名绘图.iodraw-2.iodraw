@@ -71,7 +71,7 @@
           <mxGeometry x="1430" y="677.5" width="141" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-16" value="目标信息输出：人体位置/运动轨迹/置信度评分（≥90%为有效目标）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="830" width="255" height="84" as="geometry" />
+          <mxGeometry x="1360" y="780" width="255" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-17" value="茶田安防应用1：触发声光警报模块，现场实时警示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="501" y="1093" width="245" height="67" as="geometry" />
@@ -202,6 +202,9 @@
               <mxPoint x="1209" y="327" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9GJ3p4viFf3LT7ETrT2P-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-15" target="9GJ3p4viFf3LT7ETrT2P-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
