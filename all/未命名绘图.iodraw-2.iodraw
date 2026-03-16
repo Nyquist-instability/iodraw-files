@@ -35,16 +35,16 @@
           <mxGeometry x="1160" y="510" width="254" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-11" value="异构数据融合层【核心】" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="470" y="700" width="236" height="49" as="geometry" />
+          <mxGeometry x="1430" y="536" width="236" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-12" value="数据级融合：基于扩展卡尔曼滤波（EKF），实现原始数据精准融合，初步定位目标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="806" y="700" width="255" height="84" as="geometry" />
+          <mxGeometry x="472" y="680" width="255" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-13" value="特征级融合：加权融合各传感器特征向量，构建人体目标多维度特征库（热+视觉+距离）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="471" y="1157" width="254" height="102" as="geometry" />
+          <mxGeometry x="1113" y="691" width="254" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-14" value="目标检测：融合特征输入轻量化检测网络，实现茶田场景人体目标精准识别与框选" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="471" y="1309" width="254" height="84" as="geometry" />
+          <mxGeometry x="1400" y="700" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-15" value="决策输出层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="528" y="1443" width="141" height="49" as="geometry" />
