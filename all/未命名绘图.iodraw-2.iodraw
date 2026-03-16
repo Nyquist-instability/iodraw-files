@@ -40,6 +40,9 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-10" value="特征提取：分别提取各传感器有效特征（红外：热斑轮廓；视觉：HOG人体特征；雷达：距离-速度特征）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1120" y="477" width="254" height="102" as="geometry" />
         </mxCell>
+        <mxCell id="9GJ3p4viFf3LT7ETrT2P-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-11" target="9GJ3p4viFf3LT7ETrT2P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-11" value="异构数据融合层【核心】" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1410" y="560" width="236" height="49" as="geometry" />
         </mxCell>
@@ -74,7 +77,7 @@
           <mxGeometry x="1219" y="970" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-19" value="茶田安防应用3：为空地协同追踪提供精准目标坐标，联动无人机跟飞" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1523" y="970" width="252" height="84" as="geometry" />
+          <mxGeometry x="1700" y="330" width="252" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-20" target="9GJ3p4viFf3LT7ETrT2P-15">
           <mxGeometry relative="1" as="geometry" />
@@ -168,13 +171,6 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-7" target="9GJ3p4viFf3LT7ETrT2P-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-11" target="9GJ3p4viFf3LT7ETrT2P-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1290" y="610" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-15" target="9GJ3p4viFf3LT7ETrT2P-16">
