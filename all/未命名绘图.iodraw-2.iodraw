@@ -26,7 +26,7 @@
           <mxGeometry x="472" y="352" width="253" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-8" value="空间配准：坐标转换（传感器→无人机机体→世界坐标系），消除安装位置偏差" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="740" y="501" width="254" height="84" as="geometry" />
+          <mxGeometry x="471" y="486" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-9" value="数据清洗：高斯滤波去噪+异常值剔除，过滤茶田环境噪声（枝叶晃动/温湿度干扰）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="472" y="621" width="253" height="102" as="geometry" />
