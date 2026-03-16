@@ -29,7 +29,7 @@
           <mxGeometry x="471" y="486" width="254" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-9" value="数据清洗：高斯滤波去噪+异常值剔除，过滤茶田环境噪声（枝叶晃动/温湿度干扰）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="472" y="621" width="253" height="102" as="geometry" />
+          <mxGeometry x="860" y="510" width="253" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-10" value="特征提取：分别提取各传感器有效特征（红外：热斑轮廓；视觉：HOG人体特征；雷达：距离-速度特征）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="471" y="772" width="254" height="102" as="geometry" />
