@@ -94,6 +94,9 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-21" value="实时采集融合结果误差（识别精度/漏检率/误检率）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1840" y="668.5" width="252" height="67" as="geometry" />
         </mxCell>
+        <mxCell id="9GJ3p4viFf3LT7ETrT2P-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-22" target="9GJ3p4viFf3LT7ETrT2P-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-22" value="基于茶田场景数据（遮挡/低光/雾霾）更新EKF滤波参数+特征加权系数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2230" y="660" width="257" height="84" as="geometry" />
         </mxCell>
@@ -169,17 +172,6 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1290" y="610" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=1;entryY=0.7;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-22" target="9GJ3p4viFf3LT7ETrT2P-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2529" y="400" />
-              <mxPoint x="2390" y="300" />
-              <mxPoint x="2270" y="250" />
-              <mxPoint x="2000" y="470" />
-              <mxPoint x="1209" y="327" />
             </Array>
           </mxGeometry>
         </mxCell>
