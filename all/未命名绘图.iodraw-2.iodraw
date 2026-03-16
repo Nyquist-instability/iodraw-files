@@ -25,17 +25,23 @@
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-7" value="时间配准：基于机载时钟统一时间戳，同步异构数据采集时序" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="472" y="352" width="253" height="84" as="geometry" />
         </mxCell>
+        <mxCell id="9GJ3p4viFf3LT7ETrT2P-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-8" target="9GJ3p4viFf3LT7ETrT2P-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-8" value="空间配准：坐标转换（传感器→无人机机体→世界坐标系），消除安装位置偏差" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="471" y="486" width="254" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="9GJ3p4viFf3LT7ETrT2P-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-9" target="9GJ3p4viFf3LT7ETrT2P-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-9" value="数据清洗：高斯滤波去噪+异常值剔除，过滤茶田环境噪声（枝叶晃动/温湿度干扰）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="820" y="477" width="253" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-10" value="特征提取：分别提取各传感器有效特征（红外：热斑轮廓；视觉：HOG人体特征；雷达：距离-速度特征）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="510" width="254" height="102" as="geometry" />
+          <mxGeometry x="1120" y="477" width="254" height="102" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-11" value="异构数据融合层【核心】" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="536" width="236" height="49" as="geometry" />
+          <mxGeometry x="1410" y="500" width="236" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-12" value="数据级融合：基于扩展卡尔曼滤波（EKF），实现原始数据精准融合，初步定位目标" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="472" y="680" width="255" height="84" as="geometry" />
@@ -134,11 +140,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9GJ3p4viFf3LT7ETrT2P-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-7" target="9GJ3p4viFf3LT7ETrT2P-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9GJ3p4viFf3LT7ETrT2P-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="9GJ3p4viFf3LT7ETrT2P-9" target="9GJ3p4viFf3LT7ETrT2P-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
