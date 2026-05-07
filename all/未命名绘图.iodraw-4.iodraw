@@ -235,6 +235,26 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-219" source="59ywr25FLGrMpep7XCxx-210" target="59ywr25FLGrMpep7XCxx-211">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-220" value="&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Dynamic Tidal Environment&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="540" y="790" width="175" height="240" as="geometry">
+            <mxRectangle x="75" y="800" width="150" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-221" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Actor Network&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-220">
+          <mxGeometry x="27.5" y="50" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-222" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Continuous Action Output&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-220">
+          <mxGeometry x="27.5" y="123" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-223" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Twin Critic Networks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-220">
+          <mxGeometry x="27.5" y="193" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-220" source="59ywr25FLGrMpep7XCxx-221" target="59ywr25FLGrMpep7XCxx-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-220" source="59ywr25FLGrMpep7XCxx-222" target="59ywr25FLGrMpep7XCxx-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
