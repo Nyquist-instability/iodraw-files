@@ -183,7 +183,7 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-154" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.38;entryY=1;rounded=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-123" target="59ywr25FLGrMpep7XCxx-141">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1964" y="587" />
+              <mxPoint x="1700" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
