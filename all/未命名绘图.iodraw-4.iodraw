@@ -11,16 +11,16 @@
           <mxGeometry x="765" y="40" width="1149" height="317" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-117" value="SAC Decision Network" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="273" width="314" height="372" as="geometry" />
+          <mxGeometry y="270" width="294" height="375" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-118" value="Actor Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-117">
-          <mxGeometry x="82" y="46" width="165" height="49" as="geometry" />
+          <mxGeometry x="76.77707006369427" y="46.37096774193548" width="154.4904458598726" height="49.395161290322584" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-119" value="Continuous Action Output" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-117">
-          <mxGeometry x="43" y="170" width="244" height="49" as="geometry" />
+          <mxGeometry x="40.261146496815286" y="171.3709677419355" width="228.45859872611464" height="49.395161290322584" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-120" value="Twin Critic Networks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-117">
-          <mxGeometry x="60" y="294" width="209" height="49" as="geometry" />
+          <mxGeometry x="56.17834394904459" y="296.3709677419355" width="195.68789808917197" height="49.395161290322584" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-117" source="59ywr25FLGrMpep7XCxx-118" target="59ywr25FLGrMpep7XCxx-119">
           <mxGeometry relative="1" as="geometry">
