@@ -293,7 +293,7 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-256" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Collision Risk Penalty&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-261">
           <mxGeometry x="56" y="155" width="184" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-272" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="59ywr25FLGrMpep7XCxx-272" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;USV States&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="990" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
