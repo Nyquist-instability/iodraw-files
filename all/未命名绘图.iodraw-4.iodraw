@@ -8,7 +8,7 @@
           <mxGeometry x="1964" y="92" width="474" height="694" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-116" value="Reward Mechanism" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="960" y="30" width="950" height="317" as="geometry" />
+          <mxGeometry x="720" y="75" width="950" height="317" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-117" value="SAC Decision Network" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="20" y="270" width="274" height="375" as="geometry" />
@@ -89,16 +89,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-137" value="Navigation Guidance" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="75" width="208" height="49" as="geometry" />
+          <mxGeometry x="815" y="120" width="208" height="49" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-138" value="Collision Risk Penalty" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1052" y="174" width="213" height="49" as="geometry" />
+          <mxGeometry x="812" y="219" width="213" height="49" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-139" value="Low-Tide Safety Constraint" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1031" y="273" width="255" height="49" as="geometry" />
+          <mxGeometry x="791" y="318" width="255" height="49" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-140" value="Reward Evaluation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1696" y="174" width="193" height="49" as="geometry" />
+          <mxGeometry x="1456" y="219" width="193" height="49" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-141" value="Prioritized Replay Buffer" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1989" y="339" width="192" height="79" as="geometry" />
@@ -112,21 +112,21 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-144" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.27;entryY=0;rounded=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-137" target="59ywr25FLGrMpep7XCxx-140">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1612" y="100" />
+              <mxPoint x="1372" y="145" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-145" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="1265" y="189.9999999999999" as="sourcePoint" />
-            <mxPoint x="1696" y="189.9999999999999" as="targetPoint" />
+            <mxPoint x="1025" y="234.9999999999999" as="sourcePoint" />
+            <mxPoint x="1456" y="234.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-146" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.27;entryY=1;rounded=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-139" target="59ywr25FLGrMpep7XCxx-140">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1612" y="298" />
+              <mxPoint x="1372" y="343" />
             </Array>
           </mxGeometry>
         </mxCell>
