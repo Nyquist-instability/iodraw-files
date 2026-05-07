@@ -269,8 +269,14 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-252" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Reward Mechanism&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1100" y="1070" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-253" target="59ywr25FLGrMpep7XCxx-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-253" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Navigation Guidance&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="936" y="1140" width="174" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-254" target="59ywr25FLGrMpep7XCxx-238">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-254" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Low-Tide Safety Constraint&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="911" y="1274" width="224" height="40" as="geometry" />
