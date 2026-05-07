@@ -259,10 +259,10 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-232" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Tidal Evolution&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="860" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-233" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Continuous Action Output&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="59ywr25FLGrMpep7XCxx-233" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Water Depth Update&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="933" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-234" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Twin Critic Networks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="59ywr25FLGrMpep7XCxx-234" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Dynamic Reef Boundary&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1003" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-232" target="59ywr25FLGrMpep7XCxx-233">
