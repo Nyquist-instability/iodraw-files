@@ -67,16 +67,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-131" value="Dynamic Tidal Environment" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="415" y="82" width="300" height="372" as="geometry" />
+          <mxGeometry x="415" y="80" width="255" height="374" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-132" value="Tidal Evolution" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-131">
-          <mxGeometry x="74" y="46" width="168" height="49" as="geometry" />
+          <mxGeometry x="62.89999999999999" y="46.24731182795699" width="142.79999999999998" height="49.263440860215056" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-133" value="Water Depth Update" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-131">
-          <mxGeometry x="54" y="170" width="208" height="49" as="geometry" />
+          <mxGeometry x="45.9" y="170.91397849462365" width="176.79999999999998" height="49.263440860215056" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-134" value="Dynamic Reef Boundary" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-131">
-          <mxGeometry x="43" y="294" width="230" height="49" as="geometry" />
+          <mxGeometry x="36.55" y="295.5806451612903" width="195.49999999999997" height="49.263440860215056" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-135" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-131" source="59ywr25FLGrMpep7XCxx-132" target="59ywr25FLGrMpep7XCxx-133">
           <mxGeometry relative="1" as="geometry">
