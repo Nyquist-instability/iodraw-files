@@ -266,8 +266,8 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-242" source="59ywr25FLGrMpep7XCxx-233" target="59ywr25FLGrMpep7XCxx-234">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-252" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Dynamic Tidal Environment&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="371.5" y="1105" width="250" height="30" as="geometry" />
+        <mxCell id="59ywr25FLGrMpep7XCxx-252" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Reward Mechanism&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1080" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
