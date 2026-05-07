@@ -195,17 +195,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-214" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Dynamic Tidal Environment&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="474" y="900" width="240" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-215" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="595" y="1015" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-216" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="745" y="978" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-217" value="&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;SAC Network&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="789" width="175" height="230" as="geometry">
+          <mxGeometry x="40" y="778" width="175" height="230" as="geometry">
             <mxRectangle x="75" y="800" width="150" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
