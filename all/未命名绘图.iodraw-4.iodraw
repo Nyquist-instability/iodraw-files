@@ -11,16 +11,16 @@
           <mxGeometry x="720" y="75" width="950" height="317" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-117" value="SAC Decision Network" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="40" y="270" width="254" height="350" as="geometry" />
+          <mxGeometry x="20" y="270" width="274" height="375" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-118" value="Actor Network" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-117">
-          <mxGeometry x="66.3312101910828" y="43.27956989247311" width="133.47133757961782" height="46.10215053763441" as="geometry" />
+          <mxGeometry x="71.55414012738854" y="46.37096774193548" width="143.98089171974522" height="49.395161290322584" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-119" value="Continuous Action Output" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-117">
-          <mxGeometry x="34.78343949044586" y="159.94623655913978" width="197.3757961783439" height="46.10215053763441" as="geometry" />
+          <mxGeometry x="37.52229299363057" y="171.3709677419355" width="212.9171974522293" height="49.395161290322584" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-120" value="Twin Critic Networks" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="59ywr25FLGrMpep7XCxx-117">
-          <mxGeometry x="48.535031847133766" y="276.6129032258064" width="169.06369426751593" height="46.10215053763441" as="geometry" />
+          <mxGeometry x="52.35668789808918" y="296.3709677419355" width="182.37579617834396" height="49.395161290322584" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-117" source="59ywr25FLGrMpep7XCxx-118" target="59ywr25FLGrMpep7XCxx-119">
           <mxGeometry relative="1" as="geometry">
