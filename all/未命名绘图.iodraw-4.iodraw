@@ -300,7 +300,10 @@
           <mxGeometry x="1630" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-276" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Environmental Perception&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1620" y="1120" width="220" height="40" as="geometry" />
+          <mxGeometry x="2040" y="1000" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-277" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="840" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
