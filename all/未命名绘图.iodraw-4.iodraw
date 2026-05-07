@@ -243,7 +243,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-242" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="360" y="1080" width="251.5" height="275" as="geometry" />
+          <mxGeometry x="400" y="1120" width="251.5" height="275" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-239" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-242">
           <mxGeometry width="251.5" height="275" as="geometry" />
@@ -267,7 +267,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-252" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Reward Mechanism&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1080" width="250" height="30" as="geometry" />
+          <mxGeometry x="880" y="1070" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
