@@ -240,7 +240,7 @@
           <mxGeometry x="680" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-240" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="850" y="800" width="160" height="250" as="geometry" />
+          <mxGeometry x="110" y="1169" width="160" height="250" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-237" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-240">
           <mxGeometry width="160" height="250" as="geometry" />
