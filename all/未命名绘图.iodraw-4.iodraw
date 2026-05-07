@@ -253,7 +253,7 @@
           <mxGeometry x="392" y="155" width="184" height="40" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-252" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Reward Mechanism&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59ywr25FLGrMpep7XCxx-261">
-          <mxGeometry x="200" y="15" width="250" height="30" as="geometry" />
+          <mxGeometry x="200" y="40" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="59ywr25FLGrMpep7XCxx-261" source="59ywr25FLGrMpep7XCxx-253" target="59ywr25FLGrMpep7XCxx-238">
           <mxGeometry relative="1" as="geometry" />
