@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="59ywr25FLGrMpep7XCxx-239" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1098.5" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-115" value="Risk-Driven ER-PER" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1740" y="75" width="474" height="694" as="geometry" />
         </mxCell>
@@ -235,9 +238,6 @@
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-238" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="932.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-239" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-240" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="110" y="1169" width="160" height="250" as="geometry" />
