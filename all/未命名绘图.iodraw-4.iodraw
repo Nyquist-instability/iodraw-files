@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="yjBpPeIzR7mYIkHaNzwB">
-    <mxGraphModel dx="1888" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2266" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -333,6 +333,9 @@
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-291" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-296">
           <mxGeometry width="430" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-296" source="59ywr25FLGrMpep7XCxx-288" target="59ywr25FLGrMpep7XCxx-289">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-288" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Prioritized Replay Buffer&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="59ywr25FLGrMpep7XCxx-296">
           <mxGeometry x="10" y="120" width="210" height="80" as="geometry" />
