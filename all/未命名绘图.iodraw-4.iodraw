@@ -213,8 +213,8 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-199" target="59ywr25FLGrMpep7XCxx-201">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-206" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="365" y="798" width="50" height="30" as="geometry" />
+        <mxCell id="59ywr25FLGrMpep7XCxx-206" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;SAC Decision Network&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="793" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
