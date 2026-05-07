@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="59ywr25FLGrMpep7XCxx-282" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="910" width="730" height="270" as="geometry" />
+        </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-115" value="Risk-Driven ER-PER" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1740" y="75" width="474" height="694" as="geometry" />
         </mxCell>
@@ -324,9 +327,6 @@
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-278" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;State Vector&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1820" y="1120" width="141" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-282" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="830" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
