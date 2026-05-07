@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="59ywr25FLGrMpep7XCxx-237" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="769" width="160" height="281" as="geometry" />
-        </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-115" value="Risk-Driven ER-PER" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1740" y="75" width="474" height="694" as="geometry" />
         </mxCell>
@@ -218,24 +215,6 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-220" source="59ywr25FLGrMpep7XCxx-222" target="59ywr25FLGrMpep7XCxx-223">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-229" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;SAC Network&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="850" y="810" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-198" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Actor Network&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="849.5" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-199" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Continuous Action Output&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="922.5" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-201" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Twin Critic Networks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="992.5" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-198" target="59ywr25FLGrMpep7XCxx-199">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-199" target="59ywr25FLGrMpep7XCxx-201">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-230" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Dynamic Tidal Environment&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1100" y="810" width="250" height="30" as="geometry" />
         </mxCell>
@@ -259,6 +238,30 @@
         </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-239" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-240" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="850" y="800" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-237" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-240">
+          <mxGeometry width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-229" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;SAC Network&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="59ywr25FLGrMpep7XCxx-240">
+          <mxGeometry y="10" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-198" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Actor Network&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-240">
+          <mxGeometry x="20" y="49.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-199" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Continuous Action Output&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-240">
+          <mxGeometry x="20" y="122.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-201" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Twin Critic Networks&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="59ywr25FLGrMpep7XCxx-240">
+          <mxGeometry x="20" y="192.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-240" source="59ywr25FLGrMpep7XCxx-198" target="59ywr25FLGrMpep7XCxx-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59ywr25FLGrMpep7XCxx-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-240" source="59ywr25FLGrMpep7XCxx-199" target="59ywr25FLGrMpep7XCxx-201">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
