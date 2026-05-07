@@ -123,16 +123,6 @@
             <mxPoint x="1456" y="234.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-226" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59ywr25FLGrMpep7XCxx-145">
-          <mxGeometry x="-0.2545" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-227" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="59ywr25FLGrMpep7XCxx-145">
-          <mxGeometry x="-0.3473" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="59ywr25FLGrMpep7XCxx-146" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.27;entryY=1;rounded=0;" edge="1" parent="1" source="59ywr25FLGrMpep7XCxx-139" target="59ywr25FLGrMpep7XCxx-140">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -245,7 +235,7 @@
         <mxCell id="59ywr25FLGrMpep7XCxx-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="59ywr25FLGrMpep7XCxx-219" source="59ywr25FLGrMpep7XCxx-210" target="59ywr25FLGrMpep7XCxx-211">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="59ywr25FLGrMpep7XCxx-220" value="&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Dynamic Tidal Environment&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+        <mxCell id="59ywr25FLGrMpep7XCxx-220" value="&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;Reward Mechanism&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
           <mxGeometry x="580" y="800" width="175" height="240" as="geometry">
             <mxRectangle x="75" y="800" width="150" height="40" as="alternateBounds" />
           </mxGeometry>
