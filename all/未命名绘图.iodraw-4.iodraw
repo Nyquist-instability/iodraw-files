@@ -248,10 +248,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rIZo4BDsVDI8mWQsIFSh-151" value="Yes: Breach Penalty" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-139" target="rIZo4BDsVDI8mWQsIFSh-140">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0011" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1989" y="791" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rIZo4BDsVDI8mWQsIFSh-152" value="No: Safe Navigation" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.33;entryX=0;entryY=0.49;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-139" target="rIZo4BDsVDI8mWQsIFSh-141">
