@@ -4,6 +4,152 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-94" value="4. 势场映射与特征输出接口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1517" y="20" width="659" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-95" value="3. 拓扑边界动态缩张引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="901" y="33" width="566" height="427" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-96" value="2. 潮汐-地形时空映射核" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="341" y="279" width="509" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-97" value="1. 实时多源数据输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="33" width="271" height="485" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-98" value="当前时间步潮位 &#xa; H_tide" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="417" width="172" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-99" value="暗礁局部地形高度 &#xa; h_i" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="62" y="300" width="188" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-100" value="USV当前坐标 &#xa; p_t = x, y" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="80" y="68" width="151" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-101" value="OBC固有机理参数 &#xa; 轴线L_i / 基础半径R_0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="184" width="221" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-102" value="实时净水深解算器&#xa;H_net = H_tide - h_i" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="366" y="358" width="205" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-103" value="非线性威胁系数评估&#xa; ω_threat ∈ 0, 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="622" y="358" width="204" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-104" value="胶囊体膨胀半径解算&#xa;R_t = R_0 + ΔR * ω_threat" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="926" y="358" width="246" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-105" value="时变定向边界胶囊重构&#xa;OBC_t = f L_i, R_t" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1222" y="203" width="220" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-106" value="最小控制距离解算&#xa;d_min = dist p_t, L_i" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="945" y="68" width="208" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-107" value="d_min &amp;lt;= R_t ?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1542" y="91" width="174" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-108" value="斥力势场函数计算&#xa;U_obc = 1/2 * η * 1/d_min - 1/R_t^2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1892" y="198" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-109" value="安全无威胁状态&#xa;U_obc = 0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1936" y="82" width="172" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-110" value="即时回报势场惩罚 r_obc" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2226" y="153" width="233" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-111" value="MDP空间特征向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1239" y="495" width="187" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-112" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-102" target="rIZo4BDsVDI8mWQsIFSh-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-113" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.15;entryY=1.01;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-98" target="rIZo4BDsVDI8mWQsIFSh-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="341" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-114" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0.15;entryY=0.01;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-99" target="rIZo4BDsVDI8mWQsIFSh-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="341" y="333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0.01;entryX=0.15;entryY=1;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-104" target="rIZo4BDsVDI8mWQsIFSh-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1197" y="294" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-116" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-103" target="rIZo4BDsVDI8mWQsIFSh-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-117" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.27;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-101" target="rIZo4BDsVDI8mWQsIFSh-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1197" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-118" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-100" target="rIZo4BDsVDI8mWQsIFSh-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-119" value="是: 触发入侵惩罚" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.68;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-107" target="rIZo4BDsVDI8mWQsIFSh-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1804" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-120" value="否: 处于自由水域" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.32;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-107" target="rIZo4BDsVDI8mWQsIFSh-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1804" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.76;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-105" target="rIZo4BDsVDI8mWQsIFSh-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1517" y="236" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.16;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-106" target="rIZo4BDsVDI8mWQsIFSh-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1517" y="101" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-123" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.26;entryY=1;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-108" target="rIZo4BDsVDI8mWQsIFSh-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2201" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-124" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.26;entryY=0;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-109" target="rIZo4BDsVDI8mWQsIFSh-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2201" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.81;entryX=0.33;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-104" target="rIZo4BDsVDI8mWQsIFSh-111">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1197" y="416" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
