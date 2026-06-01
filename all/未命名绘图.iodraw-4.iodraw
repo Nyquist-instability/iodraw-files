@@ -1,9 +1,56 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="fHJUZ8DEj35WRddFFpkG">
-    <mxGraphModel dx="942" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="657" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-267" value="1. 经验生成与存储&#xa;打包交互元组 (s,a,r,s&#39;)&#xa;关联水位风险权重 ω_risk" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="51" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-268" value="2. 复合优先级计算&#xa;结合时变 TD 误差与风险权重&#xa;P_i = (|δ_i| + ε)^α × (ω_risk)^β" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-269" value="3. 非均匀概率抽样&#xa;计算概率 P(i) = P_i / Σ P_j&#xa;Sum-Tree 检索高危样本批次" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="244" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-270" value="4. 采样偏差修正&#xa;计算重要性采样权重 w_i&#xa;调整重构 Critic 损失函数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="358" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-271" value="5. 网络更新与反馈&#xa;梯度更新网络参数&#xa;重算新 δ_new 并回传树节点" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="468" y="51" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-272" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-267" target="rIZo4BDsVDI8mWQsIFSh-268">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-273" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-268" target="rIZo4BDsVDI8mWQsIFSh-269">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-274" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-269" target="rIZo4BDsVDI8mWQsIFSh-270">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-275" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.05;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-270" target="rIZo4BDsVDI8mWQsIFSh-271">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="35" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-276" value="数据循环" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.05;exitY=0.99;entryX=0.95;entryY=0.99;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-271" target="rIZo4BDsVDI8mWQsIFSh-267">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="443" y="96" />
+              <mxPoint x="105" y="96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
