@@ -126,6 +126,33 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-229" value="数据输入&#xa;经验池交互元组 (s, a, r, s&#39;)&#xa;附加特征：时变 TD 误差 δ 与 环境风险权重 ω_risk" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="385" y="560" width="246" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-230" value="双准则优先级计算&#xa;耦合传统时序差分误差与低潮位风险权重&#xa;P_i = (|δ_i| + ε)^α · (ω_risk,i)^β" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="382" y="729" width="252" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-231" value="概率映射与样本抽样&#xa;计算归一化采样概率 P(i) = P_i / Σ P_j&#xa;依据 P(i) 抽取小批量 (Mini-batch) 临界高危经验" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="384" y="898" width="248" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-232" value="偏差修正与网络更新&#xa;计算重要性采样权重 (IS Weights) 消除非均匀采样偏差&#xa;输出加权梯度，更新 SAC 的 Actor 与 Critic 网络参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1067" width="256" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-233" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-229" target="rIZo4BDsVDI8mWQsIFSh-230">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-234" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-230" target="rIZo4BDsVDI8mWQsIFSh-231">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rIZo4BDsVDI8mWQsIFSh-235" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rIZo4BDsVDI8mWQsIFSh-231" target="rIZo4BDsVDI8mWQsIFSh-232">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
